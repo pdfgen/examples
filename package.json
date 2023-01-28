@@ -1,0 +1,22 @@
+{
+  "name": "pdfgen-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec node --loader ts-node/esm server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "nodemon": "^2.0.20",
+    "serve": "^14.2.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
